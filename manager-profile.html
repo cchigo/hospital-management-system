@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="table-resposive">
+            <form id="form-box">
+
+                <h1> Deca-Health Patient Management System </h1>
+                <button type="submit" > Add new patient </button>
+                </br>
+                <t> Name: <input type="text" id="name"></t>
+                <t> Age: <input type="text" id="age"></t>
+                <t> Phone Number: <input type="text" id="phone"></t>
+                <t> Gender: <input type="text" id="gender"></t>
+                <t> Check in: <input type="text" id="check-in"></t>
+                <t> Allergies: <input type="text" id="allergies"></t>
+                <t> Diagnosis: <input type="text" id="diagnosis"></t>
+                <t> Doctor in Charge: <input type="text" id="dic"></t>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="table-responsive">
+            <br>
+            <table class="table table-bordered table-striped" id="patient-table">
+                <tr>
+                    <th> Name </th>
+                    <th> Age </th>
+                    <th> Contact </th>
+                    <th> Gender </th>
+                    <th> Check-in Date </th>
+                    <th> Allergies </th>
+                    <th> Diagnosis</th>
+                    <th>Doctor</th>
+                    <td> <button id="dtn" type="button" class="delete_patient"> Delete </button> </td>
+                    <td> <button id="etn" type="button" class="edit_patient" > Edit </button> </td>
+                    
+
+                </tr>
+                <button type="submit" class"search" > Search Patients </button>
+
+            </table>
+
+
+
+
+
+
+        </div>
+    </div>
+
+   
+
+    </button>
+</body>
+
+
+</html>
+<script src="js/mp.js"> </script>

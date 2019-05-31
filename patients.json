@@ -1,0 +1,65 @@
+{
+  "Management": [
+    {
+      "username": "man1",
+      "password": "anaxyy"
+    }
+  ],
+  "patient": [
+    {
+      "id": 1,
+      "name": "Chigo",
+      "age": "28",
+      "phone": "0905039090",
+      "gender": "female",
+      "checkIn": "12/09/2019",
+      "allergies": "nuts",
+      "diagnosis": "malaria",
+      "dr": "Dr Asheley"
+    },
+    {
+      "id": 2,
+      "name": "Chigo",
+      "age": "28",
+      "phone": "0905039090",
+      "gender": "female",
+      "checkIn": "12/05/2019",
+      "allergies": "lactose Intolerance",
+      "diagnosis": "cough",
+      "dr": "Dr Victor"
+    },
+    {
+      "id": 3,
+      "name": "Chigo",
+      "age": "28",
+      "phone": "0905039090",
+      "gender": "female",
+      "checkIn": "10/09/2019",
+      "allergies": "pet allergies",
+      "diagnosis": "Fever",
+      "dr": "Dr Uche"
+    },
+    {
+      "id": 4,
+      "name": "Chigo",
+      "age": "28",
+      "phone": "0905039090",
+      "gender": "female",
+      "checkIn": "11/09/2019",
+      "allergies": "dust",
+      "diagnosis": "asthma",
+      "dr": "Dr Ayo"
+    },
+    {
+      "name": "th853u09",
+      "age": "fb4g7",
+      "phone": "r4g7rb",
+      "gender": "bfgg",
+      "checkIn": "rhr4h",
+      "allergies": "frnrh",
+      "diagnosis": "nfh4fh",
+      "doctorIncharge": "fhfh",
+      "id": 5
+    }
+  ]
+}
