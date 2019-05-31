@@ -1,0 +1,20 @@
+{
+  "name": "hospital-management",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000h\u0000o\u0000s\u0000p\u0000i\u0000t\u0000a\u0000l\u0000-\u0000m\u0000a\u0000n\u0000a\u0000g\u0000e\u0000m\u0000e\u0000n\u0000t\u0000-\u0000s\u0000y\u0000s\u0000t\u0000e\u0000m\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch patients.json
+    "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cchigo/hospital-management-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cchigo/hospital-management-system/issues"
+  },
+  "homepage": "https://github.com/cchigo/hospital-management-system#readme"
+}
