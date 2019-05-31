@@ -15,10 +15,10 @@
 <body>
     <div class="container">
         <div class="table-resposive">
-            <form>
+            <form id="form-box">
 
                 <h1> Deca-Health Patient Management System </h1>
-                <button id="form-box"> Add new patient </button>
+                <button type="submit" > Add new patient </button>
                 </br>
                 <t> Name: <input type="text" id="name"></t>
                 <t> Age: <input type="text" id="age"></t>
@@ -43,10 +43,13 @@
                     <th> Check-in Date </th>
                     <th> Allergies </th>
                     <th> Diagnosis</th>
-                    <th>Doctor in charge</th>
-                    <th>Delete<input id="dtn" type="button" value="click"></th>
+                    <th>Doctor</th>
+                    <td> <button id="dtn" type="button" class="delete_patient"> Delete </button> </td>
+                    <td> <button id="etn" type="button" class="edit_patient" > Edit </button> </td>
+                    
 
                 </tr>
+                <button type="submit" class"search" > Search Patients </button>
 
             </table>
 
@@ -58,7 +61,7 @@
         </div>
     </div>
 
-    <button id="add-patient" type="submit">
+   
 
     </button>
 </body>
